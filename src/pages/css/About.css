@@ -1,0 +1,8 @@
+.dropdown_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    margin: 2rem 0;
+}
