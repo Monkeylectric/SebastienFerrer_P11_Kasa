@@ -1,0 +1,25 @@
+.footer_section {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    /* margin-top: 5rem; */
+    /* position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+}
+
+.footer_container {
+    color: #FFF;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.footer_copyright {
+    font-size: 24px;
+    font-weight: 500;
+}
