@@ -8,8 +8,6 @@ function Collapse(props) {
         !actived ? setActived(true) : setActived(false);
     }
 
-    // Array.isArray(props.description) ? console.log(props.description) : console.log("null");
-
     let descriptionIsArray = false;
     if (Array.isArray(props.description)) descriptionIsArray = true;
 
