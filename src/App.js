@@ -10,10 +10,6 @@ import housingServices from "./services/logement.service";
 function App() {
     const router = createBrowserRouter([
         {
-            path: "*",
-            element: <Error number="404" />,
-        },
-        {
             path: "/",
             element: <Home />,
         },
@@ -34,6 +30,10 @@ function App() {
                 return currentHouse;
             },
             errorElement: <Error number="404" />,
+        },
+        {
+            path: "*",
+            element: <Error number="404" />,
         },
     ]);
 
